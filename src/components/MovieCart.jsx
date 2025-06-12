@@ -9,6 +9,7 @@ export const MovieCard = () => {
           <Star className="fill-amber-300 text-amber-300" />
           <p className="text-black">6.9</p>
           <p class="text-zinc-500">/10</p>
+          <p>hi</p>
         </div>
         <p class="text-black text-sm md:text-lg">
           How To Train Your Dragon Live Action
