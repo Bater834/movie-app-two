@@ -10,11 +10,6 @@ export default function home() {
       <MovieCard />
       <MovieCard />
       <MovieCard />
-      <MovieCard />
-      <MovieCard />
-      <MovieCard />
-      <MovieCard />
-      <MovieCard />
     </div>
   );
 }
