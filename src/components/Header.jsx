@@ -4,7 +4,7 @@ import { Moon } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 export default function Header() {
   return (
-    <div className="mx-auto max-w-[1280px] w-full">
+    <div className="mx-auto max-w-[1280px] w-full my-52">
       <div className="flex justify-between  ">
         <div className="flex">
           <Film className="text-indigo-700" />
