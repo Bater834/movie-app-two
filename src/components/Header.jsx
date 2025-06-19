@@ -4,13 +4,13 @@ import { Moon } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 export default function Header() {
   return (
-    <div className="mx-auto max-w-[1280px] w-full my-52">
+    <div className="mx-auto max-w-[1280px] w-full my-5">
       <div className="flex justify-between  ">
         <div className="flex">
           <Film className="text-indigo-700" />
           <p className="text-indigo-700 font-bold">Movie Z</p>
         </div>
-        <div className="flex gap-4">
+        <div className="hidden md:flex gap-4">
           <div className="flex justify-center gap-[10px] rounded-md outline-2 items-center border-black w-[97px] h-[36px]">
             <ChevronDown className="text-black" />
             <p className="text-black">Genre</p>

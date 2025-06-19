@@ -11,15 +11,14 @@ export default function home() {
         <Carouselea />
         <Upcoming />
       </div>
-      <div
-        className="grid grid-cols-2 gap-2 md:grid-cols-5 md:gap-3 mb-[51px] 
- "
-      >
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
+      <div className="flex justify-center">
+        <div className="grid md:grid-cols-5 md:gap-8 md:px-10 grid-cols-2 gap-4 px-4">
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+        </div>
       </div>
       <Footer />
     </div>

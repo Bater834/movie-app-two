@@ -1,12 +1,8 @@
 import { Star } from "lucide-react";
 export const MovieCard = () => {
   return (
-    <div class="rounded-2xl overflow-hidden w-[158px] h-[310px] md:w-[230px] md:h-[440px]">
-      <img
-        class="h-[234px] md:h-[340px] w-[158px] md:w-[230px]"
-        src="/movie-cart1.jpg"
-        alt="poster"
-      />
+    <div class="">
+      <img class="" src="/movie-cart1.jpg" alt="poster" />
 
       <div class="bg-gray-100 md:p-2 rounded-b-xl">
         <div class="flex mb-1 text-xs md:flex md:text-sm md:mb-2">
