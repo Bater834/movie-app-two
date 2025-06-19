@@ -12,7 +12,7 @@ export default function home() {
         <Upcoming />
       </div>
       <div
-        className="grid grid-cols-2 gap-2 md:grid-cols-5 md:gap-3 
+        className="grid grid-cols-2 gap-2 md:grid-cols-5 md:gap-3 mb-[51px] 
  "
       >
         <MovieCard />

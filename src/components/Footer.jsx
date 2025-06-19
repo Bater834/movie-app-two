@@ -33,9 +33,9 @@ export const Footer = () => {
             <p>+976 (11) 123-4567</p>
           </div>
         </div>
-        <div>
+        <div className="">
           <p>Follow us </p>
-          <p>Facebook Instagram Twitter Youtube</p>
+          <p className="">Facebook Instagram Twitter Youtube</p>
         </div>
       </div>
     </div>
